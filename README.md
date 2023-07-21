@@ -1,10 +1,14 @@
 # The-Deep-Double-Ritz-Method
 
-Here, I include a self-developed clean first version of the three deep-learning-based methods (WANs -  Weak Adversarial Networks, GDRM - The Generalised Deep Ritz Method, and D2RM - The Deep Double Ritz Method) discussed in the article "A Deep Double Ritz Method for solving Partial Differential Equations using Neural Networks".
+In this submission, I present three self-developed deep-learning-based implementations in TF2 of the methods: WANs (Weak Adversarial Networks), GDRM (The Generalized Deep Ritz Method), and D2RM (The Deep Double Ritz Method). These methods are discussed in the article titled "A Deep Double Ritz Method for solving Partial Differential Equations using Neural Networks". You can find an open-source version of the article here: https://www.sciencedirect.com/science/article/pii/S0045782523000154
 
-This first version encodes the methods in separate and independent modules (WANs, GDRM, and DDRM). In all the cases, one can easily reproduce the results of the polynomial cases of the article. For the remaining cases, it is necessary to introduce subtleties discussed in the article (such as the midpoint integration rules whose integration mesh is stochastic and oriented to capture the singularities of each case) that, for the moment, I do not include in this first version.
+For clarity and modularity, I have encoded each method in separate and independent modules: WANs, GDRM, and D2RM. The results of the polynomial cases from the article can be easily reproduced using this initial version. However, I must note that for the other cases, additional complexities exist, as explained in the article. These complexities involve incorporating very specific subtleties that are case-specific (like the midpoint integration rules with a stochastic integration mesh, specifically designed to capture the singularities present in each case). Regrettably, these case-by-case intricacies are not yet included in this first version.
 
-Please, take into consideration that I'm not a developer, and the way I initially produced the results of the article was anything but user-friendly. For the moment, this is all I can offer in a somewhat elegant way. Thank you for being so understanding ;).
+As a non-developer, I recognize that my first coding to produce the results of the published article was anything but user-friendly. With the intention to produce a user-friendly version, I believe this first base launch represents a somewhat elegant solution for now. Your understanding and patience are greatly appreciated.
 
-If anyone has any particular interest or concern about this work or related topics, please feel free to contact me directly at carlos.uribar@gmail.com.
+For any specific inquiries or interests regarding this work or related topics, please feel free to contact me directly at carlos.uribar@gmail.com. I am open to discussions and happy to provide further insights. Thank you for your understanding and interest in my research.
+
+
+
+
 
